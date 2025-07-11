@@ -33,7 +33,7 @@ body {
     font-weight: bold;
     border: none;
     padding: 12px 36px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .btn-primary a {
@@ -215,4 +215,32 @@ main {
 
 .reviews-date{
     color: #b3b3b3  ;
+}
+
+/* :focus section style  */
+
+.focus{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 71px;
+    padding-bottom: 61px;
+}
+
+.focus-img{
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+.focus-title{
+     font-family: "Raleway";
+    font-size: 40px;
+    color: #252432;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.focus-description{
+ font-family: "Raleway";
+    color: #808080;
+       margin-bottom: 25px;
 }
