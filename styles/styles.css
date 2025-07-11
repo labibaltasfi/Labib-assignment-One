@@ -2,6 +2,13 @@
     margin-top: 0;
 }
 
+
+body{
+    background-color: #f5f8ff;
+}
+
+
+
 /* fonts  */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -72,3 +79,35 @@
     font-size: 65px;
 }
 
+/* main  styles*/
+main{
+    max-width: 1280px;
+    background-color: #f5f8ff;
+    margin: 0 auto;
+}
+
+/* Action section  */
+
+.action-section{
+    justify-content: space-between;
+    display: flex;
+    margin: 120px 0;
+}
+
+.action-title{
+     font-family:"Raleway";
+     font-weight: 700;
+     font-size: 42px;
+}
+
+.action-description{
+      font-family:"Raleway";
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: 40px;
+      color: #252432;
+}
+
+.action-column-two img{
+    border-radius: 40px;
+}
